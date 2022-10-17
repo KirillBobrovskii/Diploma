@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="445ca415cba24947b9cc082e46e5db52" Name="Diagram1">
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Bills" Width="1.5" PointX="5.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Groups" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Orders" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.OrderStrings" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.OrderTypes" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.ScholarshipTypes" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Specialties" Width="1.5" PointX="1.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Statements" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.StatementStrings" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Students" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Users" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_Bills" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_Orders_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_Orders_2" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_Orders_3" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_OrderStrings_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_OrderStrings_2" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_StatementStrings_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.FK_StatementStrings_2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

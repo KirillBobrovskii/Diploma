@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Bobrovski_4IS1_DataBase_ScholarshipAppointment2ModelContainer" CdmEntityContainer="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Entities">
+    <EntitySetMapping Name="Bills">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Bills">
+        <MappingFragment StoreEntitySet="Bills">
+          <ScalarProperty Name="idBill" ColumnName="idBill" />
+          <ScalarProperty Name="idStud" ColumnName="idStud" />
+          <ScalarProperty Name="bill" ColumnName="bill" />
+          <ScalarProperty Name="finishDate" ColumnName="finishDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Groups">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="idGroup" ColumnName="idGroup" />
+          <ScalarProperty Name="gName" ColumnName="gName" />
+          <ScalarProperty Name="idSpec" ColumnName="idSpec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Orders">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="idST" ColumnName="idST" />
+          <ScalarProperty Name="idOT" ColumnName="idOT" />
+          <ScalarProperty Name="docDate" ColumnName="docDate" />
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+          <ScalarProperty Name="signDate" ColumnName="signDate" />
+          <ScalarProperty Name="comm" ColumnName="comm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderStrings">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.OrderStrings">
+        <MappingFragment StoreEntitySet="OrderStrings">
+          <ScalarProperty Name="idOS" ColumnName="idOS" />
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="idStud" ColumnName="idStud" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="finishDate" ColumnName="finishDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderTypes">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.OrderTypes">
+        <MappingFragment StoreEntitySet="OrderTypes">
+          <ScalarProperty Name="idOT" ColumnName="idOT" />
+          <ScalarProperty Name="otName" ColumnName="otName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScholarshipTypes">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.ScholarshipTypes">
+        <MappingFragment StoreEntitySet="ScholarshipTypes">
+          <ScalarProperty Name="idST" ColumnName="idST" />
+          <ScalarProperty Name="stName" ColumnName="stName" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Specialties">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Specialties">
+        <MappingFragment StoreEntitySet="Specialties">
+          <ScalarProperty Name="idSpec" ColumnName="idSpec" />
+          <ScalarProperty Name="specName" ColumnName="specName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Statements">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Statements">
+        <MappingFragment StoreEntitySet="Statements">
+          <ScalarProperty Name="idStat" ColumnName="idStat" />
+          <ScalarProperty Name="docNum" ColumnName="docNum" />
+          <ScalarProperty Name="docDate" ColumnName="docDate" />
+          <ScalarProperty Name="monthNum" ColumnName="monthNum" />
+          <ScalarProperty Name="yearNum" ColumnName="yearNum" />
+          <ScalarProperty Name="signDate" ColumnName="signDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatementStrings">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.StatementStrings">
+        <MappingFragment StoreEntitySet="StatementStrings">
+          <ScalarProperty Name="idSS" ColumnName="idSS" />
+          <ScalarProperty Name="idOS" ColumnName="idOS" />
+          <ScalarProperty Name="idStat" ColumnName="idStat" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+          <ScalarProperty Name="bill" ColumnName="bill" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="idStud" ColumnName="idStud" />
+          <ScalarProperty Name="fio" ColumnName="fio" />
+          <ScalarProperty Name="birthDay" ColumnName="birthDay" />
+          <ScalarProperty Name="passInfo" ColumnName="passInfo" />
+          <ScalarProperty Name="idGroup" ColumnName="idGroup" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+          <ScalarProperty Name="fio" ColumnName="fio" />
+          <ScalarProperty Name="uLogin" ColumnName="uLogin" />
+          <ScalarProperty Name="uPassword" ColumnName="uPassword" />
+          <ScalarProperty Name="uAdmin" ColumnName="uAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

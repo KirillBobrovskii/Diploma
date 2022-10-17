@@ -1,0 +1,87 @@
+﻿<Page x:Class="ScholarshipAppointment.Pages.Statements"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ScholarshipAppointment.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="920"
+      Title="Statements"
+      Loaded="PageLoad">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Name="GridSplitter" Width="0"/>
+            <ColumnDefinition Name="Dialog" Width="0" MaxWidth="600"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Ведомости" FontSize="26" FontWeight="ExtraBold" Foreground="DodgerBlue"/>
+
+        <StackPanel Name="StatementButtonsPanel" Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Добавить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="StatementAddButtonClick"/>
+            <Button Content="Копировать" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="StatementCopyButtonClick"/>
+            <Button Name="StatementEditButton" Content="Изменить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="StatementEditButtonClick"/>
+            <Button Name="StatementDeleteButton" Content="Удалить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="StatementDeleteButtonClick"/>
+            <Label Content="|" Margin="10,0,0,0" FontSize="20" FontWeight="Bold" Foreground="Gray"/>
+            <Button Content="Подписать" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="SignButtonClick"/>
+            <Label Content="|" Margin="10,0,0,0" FontSize="20" FontWeight="Bold" Foreground="Gray"/>
+            <ComboBox Name="StatementFilterBox" Width="160" Height="25" Margin="10,0,0,0" VerticalContentAlignment="Center"/>
+            <TextBox Width="160" Height="25" Margin="5,0,5,0" VerticalContentAlignment="Center" TextChanged="StatementFilterTextBoxTextChanged"/>
+        </StackPanel>
+
+        <DockPanel Grid.Row="2" Margin="5,0,5,5">
+            <DataGrid Name ="StatementDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" SelectionChanged="StatementDataGridSelectionChanged" MouseDoubleClick="StatementDataGridMouseDoubleClick">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Номер ведомости" Width="*" Binding="{Binding Path = docNum}"/>
+                    <DataGridTextColumn Header="Дата" Width="*" Binding="{Binding Path = docDate, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                    <DataGridTextColumn Header="Месяц окончания" Width="*" Binding="{Binding Path = monthNum}"/>
+                    <DataGridTextColumn Header="Год окончания" Width="*" Binding="{Binding Path = yearNum}"/>
+                    <DataGridTextColumn Header="Дата подписи" Width="*" Binding="{Binding Path = signDate, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+
+        <Label Content="Строки ведомости" Grid.Row="3" FontSize="26" FontWeight="ExtraBold" Foreground="DodgerBlue"/>
+
+        <StackPanel Name="StatementStringFilterPanel" Grid.Row="4" Height="40" Orientation="Horizontal">
+            <StackPanel Name="StatementStringButtonsPanel" Orientation="Horizontal">
+                <Button Content="Добавить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="StatementStringAddButtonClick"/>
+                <Button Content="Удалить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="StatementStringDeleteButtonClick"/>
+            </StackPanel>
+            <Label Content="|" Margin="10,0,0,0" FontSize="20" FontWeight="Bold" Foreground="Gray"/>
+            <ComboBox Name="StatementStringFilterBox" Width="160" Height="25" Margin="10,0,0,0" VerticalContentAlignment="Center"/>
+            <TextBox Width="160" Height="25" Margin="5,0,5,0" VerticalContentAlignment="Center" TextChanged="StatementStringFilterTextBoxTextChanged"/>
+        </StackPanel>
+
+        <DockPanel Grid.Row="5" Margin="5,0,5,5">
+            <DataGrid Name="StatementStringDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Номер приказа" Width="100" Binding="{Binding Path = OrderStrings.Orders.idOrder}"/>
+                    <DataGridTextColumn Header="Студент" Width="*" Binding="{Binding Path = OrderStrings.Students.fio}"/>
+                    <DataGridTextColumn Header="Сумма" Width="70" Binding="{Binding Path = cost}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style>
+                                <Setter Property="TextBlock.TextAlignment" Value="Right"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="Счёт" Width="120" Binding="{Binding Path = bill}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+
+        <GridSplitter Grid.Row="1" Grid.Column="1" Grid.RowSpan="5" Margin="0,5,0,5" Background="DodgerBlue" HorizontalAlignment="Stretch"/>
+
+        <Frame Name="Frame" Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" Margin="0,5,0,5" NavigationUIVisibility="Hidden"/>    
+    </Grid>
+</Page>

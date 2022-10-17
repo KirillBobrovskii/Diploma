@@ -1,0 +1,41 @@
+﻿<Page x:Class="ScholarshipAppointment.Pages.UserDlg"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ScholarshipAppointment.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="210" d:DesignWidth="350"
+      Title="UserDlg">
+
+    <Grid>
+        <StackPanel>
+            <Label Name="Label" Margin="0,0,0,10" FontSize="16" FontWeight="ExtraBold" Foreground="DodgerBlue"/>
+
+            <Grid Margin="0,0,0,10">
+                <Label Content="ФИО"/>
+                <TextBox Name="UserFIO" Height="25" Margin="55,0,10,0" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <Grid Margin="0,0,0,10">
+                <Label Content="Логин"/>
+                <TextBox Name="UserLogin" Height="25" Margin="55,0,10,0" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <Grid Margin="0,0,0,10">
+                <Label Content="Пароль"/>
+                <TextBox Name="UserPassword" Height="25" Margin="55,0,10,0" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <Grid Margin="0,0,0,10">
+                <Label Content="Админ"/>
+                <ComboBox Name="UserAdmin" Height="25" Margin="55,0,10,0" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <StackPanel Margin="0,0,10,0" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Name="Commit" Width="100" Height="25" Margin="0,0,5,0" FontWeight="Bold" Foreground="DodgerBlue" Click="CommitButtonClick"/>
+                <Button Content="Отменить" Width="100" Height="25" FontWeight="Bold" Foreground="DodgerBlue" Click="RollBackButtonClick"/>
+            </StackPanel>
+        </StackPanel>   
+    </Grid>
+</Page>

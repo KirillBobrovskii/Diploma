@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Bills">
+          <Key>
+            <PropertyRef Name="idBill" />
+          </Key>
+          <Property Name="idBill" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idStud" Type="int" Nullable="false" />
+          <Property Name="bill" Type="varchar" MaxLength="16" />
+          <Property Name="finishDate" Type="date" />
+        </EntityType>
+        <EntityType Name="Groups">
+          <Key>
+            <PropertyRef Name="idGroup" />
+          </Key>
+          <Property Name="idGroup" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="gName" Type="varchar" MaxLength="50" />
+          <Property Name="idSpec" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="idOrder" />
+          </Key>
+          <Property Name="idOrder" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idST" Type="int" Nullable="false" />
+          <Property Name="idOT" Type="int" Nullable="false" />
+          <Property Name="docDate" Type="date" />
+          <Property Name="idUser" Type="int" Nullable="false" />
+          <Property Name="signDate" Type="date" />
+          <Property Name="comm" Type="varchar" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="OrderStrings">
+          <Key>
+            <PropertyRef Name="idOS" />
+          </Key>
+          <Property Name="idOS" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idOrder" Type="int" Nullable="false" />
+          <Property Name="idStud" Type="int" Nullable="false" />
+          <Property Name="cost" Type="decimal" Precision="15" Scale="2" />
+          <Property Name="startDate" Type="date" />
+          <Property Name="finishDate" Type="date" />
+        </EntityType>
+        <EntityType Name="OrderTypes">
+          <Key>
+            <PropertyRef Name="idOT" />
+          </Key>
+          <Property Name="idOT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="otName" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="ScholarshipTypes">
+          <Key>
+            <PropertyRef Name="idST" />
+          </Key>
+          <Property Name="idST" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="stName" Type="varchar" MaxLength="100" />
+          <Property Name="cost" Type="decimal" Precision="15" Scale="2" />
+        </EntityType>
+        <EntityType Name="Specialties">
+          <Key>
+            <PropertyRef Name="idSpec" />
+          </Key>
+          <Property Name="idSpec" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="specName" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Statements">
+          <Key>
+            <PropertyRef Name="idStat" />
+          </Key>
+          <Property Name="idStat" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="docNum" Type="varchar" MaxLength="15" />
+          <Property Name="docDate" Type="date" />
+          <Property Name="monthNum" Type="int" />
+          <Property Name="yearNum" Type="int" />
+          <Property Name="signDate" Type="date" />
+        </EntityType>
+        <EntityType Name="StatementStrings">
+          <Key>
+            <PropertyRef Name="idSS" />
+          </Key>
+          <Property Name="idSS" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idOS" Type="int" Nullable="false" />
+          <Property Name="idStat" Type="int" Nullable="false" />
+          <Property Name="cost" Type="decimal" Precision="15" Scale="2" />
+          <Property Name="bill" Type="varchar" MaxLength="16" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="idStud" />
+          </Key>
+          <Property Name="idStud" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fio" Type="varchar" MaxLength="100" />
+          <Property Name="birthDay" Type="date" />
+          <Property Name="passInfo" Type="varchar" MaxLength="10" />
+          <Property Name="idGroup" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="idUser" />
+          </Key>
+          <Property Name="idUser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fio" Type="varchar" MaxLength="100" />
+          <Property Name="uLogin" Type="varchar" MaxLength="50" />
+          <Property Name="uPassword" Type="varchar" MaxLength="50" />
+          <Property Name="uAdmin" Type="bit" />
+        </EntityType>
+        <Association Name="FK_Bills">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="Bills" Type="Self.Bills" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="idStud" />
+            </Principal>
+            <Dependent Role="Bills">
+              <PropertyRef Name="idStud" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Groups">
+          <End Role="Specialties" Type="Self.Specialties" Multiplicity="1" />
+          <End Role="Groups" Type="Self.Groups" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Specialties">
+              <PropertyRef Name="idSpec" />
+            </Principal>
+            <Dependent Role="Groups">
+              <PropertyRef Name="idSpec" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_1">
+          <End Role="ScholarshipTypes" Type="Self.ScholarshipTypes" Multiplicity="1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScholarshipTypes">
+              <PropertyRef Name="idST" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="idST" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_2">
+          <End Role="OrderTypes" Type="Self.OrderTypes" Multiplicity="1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrderTypes">
+              <PropertyRef Name="idOT" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="idOT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_3">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="idUser" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="idUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderStrings_1">
+          <End Role="Orders" Type="Self.Orders" Multiplicity="1" />
+          <End Role="OrderStrings" Type="Self.OrderStrings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="idOrder" />
+            </Principal>
+            <Dependent Role="OrderStrings">
+              <PropertyRef Name="idOrder" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderStrings_2">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="OrderStrings" Type="Self.OrderStrings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="idStud" />
+            </Principal>
+            <Dependent Role="OrderStrings">
+              <PropertyRef Name="idStud" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StatementStrings_1">
+          <End Role="OrderStrings" Type="Self.OrderStrings" Multiplicity="1" />
+          <End Role="StatementStrings" Type="Self.StatementStrings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrderStrings">
+              <PropertyRef Name="idOS" />
+            </Principal>
+            <Dependent Role="StatementStrings">
+              <PropertyRef Name="idOS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StatementStrings_2">
+          <End Role="Statements" Type="Self.Statements" Multiplicity="1" />
+          <End Role="StatementStrings" Type="Self.StatementStrings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Statements">
+              <PropertyRef Name="idStat" />
+            </Principal>
+            <Dependent Role="StatementStrings">
+              <PropertyRef Name="idStat" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Students">
+          <End Role="Groups" Type="Self.Groups" Multiplicity="1" />
+          <End Role="Students" Type="Self.Students" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Groups">
+              <PropertyRef Name="idGroup" />
+            </Principal>
+            <Dependent Role="Students">
+              <PropertyRef Name="idGroup" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище Bobrovski_4IS1_DataBase_ScholarshipAppointment2ModelContainer">
+          <EntitySet Name="Bills" EntityType="Self.Bills" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Groups" EntityType="Self.Groups" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrderStrings" EntityType="Self.OrderStrings" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrderTypes" EntityType="Self.OrderTypes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ScholarshipTypes" EntityType="Self.ScholarshipTypes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Specialties" EntityType="Self.Specialties" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Statements" EntityType="Self.Statements" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StatementStrings" EntityType="Self.StatementStrings" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Bills" Association="Self.FK_Bills">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Bills" EntitySet="Bills" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Groups" Association="Self.FK_Groups">
+            <End Role="Specialties" EntitySet="Specialties" />
+            <End Role="Groups" EntitySet="Groups" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_1" Association="Self.FK_Orders_1">
+            <End Role="ScholarshipTypes" EntitySet="ScholarshipTypes" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_2" Association="Self.FK_Orders_2">
+            <End Role="OrderTypes" EntitySet="OrderTypes" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_3" Association="Self.FK_Orders_3">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderStrings_1" Association="Self.FK_OrderStrings_1">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="OrderStrings" EntitySet="OrderStrings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderStrings_2" Association="Self.FK_OrderStrings_2">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="OrderStrings" EntitySet="OrderStrings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StatementStrings_1" Association="Self.FK_StatementStrings_1">
+            <End Role="OrderStrings" EntitySet="OrderStrings" />
+            <End Role="StatementStrings" EntitySet="StatementStrings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StatementStrings_2" Association="Self.FK_StatementStrings_2">
+            <End Role="Statements" EntitySet="Statements" />
+            <End Role="StatementStrings" EntitySet="StatementStrings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Students" Association="Self.FK_Students">
+            <End Role="Groups" EntitySet="Groups" />
+            <End Role="Students" EntitySet="Students" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Bills">
+          <Key>
+            <PropertyRef Name="idBill" />
+          </Key>
+          <Property Name="idBill" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idStud" Type="Int32" Nullable="false" />
+          <Property Name="bill" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+          <Property Name="finishDate" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Students" Relationship="Self.FK_Bills" FromRole="Bills" ToRole="Students" />
+        </EntityType>
+        <EntityType Name="Groups">
+          <Key>
+            <PropertyRef Name="idGroup" />
+          </Key>
+          <Property Name="idGroup" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="gName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="idSpec" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Specialties" Relationship="Self.FK_Groups" FromRole="Groups" ToRole="Specialties" />
+          <NavigationProperty Name="Students" Relationship="Self.FK_Students" FromRole="Groups" ToRole="Students" />
+        </EntityType>
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="idOrder" />
+          </Key>
+          <Property Name="idOrder" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idST" Type="Int32" Nullable="false" />
+          <Property Name="idOT" Type="Int32" Nullable="false" />
+          <Property Name="docDate" Type="DateTime" Precision="0" />
+          <Property Name="idUser" Type="Int32" Nullable="false" />
+          <Property Name="signDate" Type="DateTime" Precision="0" />
+          <Property Name="comm" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ScholarshipTypes" Relationship="Self.FK_Orders_1" FromRole="Orders" ToRole="ScholarshipTypes" />
+          <NavigationProperty Name="OrderTypes" Relationship="Self.FK_Orders_2" FromRole="Orders" ToRole="OrderTypes" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Orders_3" FromRole="Orders" ToRole="Users" />
+          <NavigationProperty Name="OrderStrings" Relationship="Self.FK_OrderStrings_1" FromRole="Orders" ToRole="OrderStrings" />
+        </EntityType>
+        <EntityType Name="OrderStrings">
+          <Key>
+            <PropertyRef Name="idOS" />
+          </Key>
+          <Property Name="idOS" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idOrder" Type="Int32" Nullable="false" />
+          <Property Name="idStud" Type="Int32" Nullable="false" />
+          <Property Name="cost" Type="Decimal" Precision="15" Scale="2" />
+          <Property Name="startDate" Type="DateTime" Precision="0" />
+          <Property Name="finishDate" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_OrderStrings_1" FromRole="OrderStrings" ToRole="Orders" />
+          <NavigationProperty Name="Students" Relationship="Self.FK_OrderStrings_2" FromRole="OrderStrings" ToRole="Students" />
+          <NavigationProperty Name="StatementStrings" Relationship="Self.FK_StatementStrings_1" FromRole="OrderStrings" ToRole="StatementStrings" />
+        </EntityType>
+        <EntityType Name="OrderTypes">
+          <Key>
+            <PropertyRef Name="idOT" />
+          </Key>
+          <Property Name="idOT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="otName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_2" FromRole="OrderTypes" ToRole="Orders" />
+        </EntityType>
+        <EntityType Name="ScholarshipTypes">
+          <Key>
+            <PropertyRef Name="idST" />
+          </Key>
+          <Property Name="idST" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="stName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="cost" Type="Decimal" Precision="15" Scale="2" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_1" FromRole="ScholarshipTypes" ToRole="Orders" />
+        </EntityType>
+        <EntityType Name="Specialties">
+          <Key>
+            <PropertyRef Name="idSpec" />
+          </Key>
+          <Property Name="idSpec" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="specName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Groups" Relationship="Self.FK_Groups" FromRole="Specialties" ToRole="Groups" />
+        </EntityType>
+        <EntityType Name="Statements">
+          <Key>
+            <PropertyRef Name="idStat" />
+          </Key>
+          <Property Name="idStat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="docNum" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="docDate" Type="DateTime" Precision="0" />
+          <Property Name="monthNum" Type="Int32" />
+          <Property Name="yearNum" Type="Int32" />
+          <Property Name="signDate" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="StatementStrings" Relationship="Self.FK_StatementStrings_2" FromRole="Statements" ToRole="StatementStrings" />
+        </EntityType>
+        <EntityType Name="StatementStrings">
+          <Key>
+            <PropertyRef Name="idSS" />
+          </Key>
+          <Property Name="idSS" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idOS" Type="Int32" Nullable="false" />
+          <Property Name="idStat" Type="Int32" Nullable="false" />
+          <Property Name="cost" Type="Decimal" Precision="15" Scale="2" />
+          <Property Name="bill" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="OrderStrings" Relationship="Self.FK_StatementStrings_1" FromRole="StatementStrings" ToRole="OrderStrings" />
+          <NavigationProperty Name="Statements" Relationship="Self.FK_StatementStrings_2" FromRole="StatementStrings" ToRole="Statements" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="idStud" />
+          </Key>
+          <Property Name="idStud" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="birthDay" Type="DateTime" Precision="0" />
+          <Property Name="passInfo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="idGroup" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Bills" Relationship="Self.FK_Bills" FromRole="Students" ToRole="Bills" />
+          <NavigationProperty Name="Groups" Relationship="Self.FK_Students" FromRole="Students" ToRole="Groups" />
+          <NavigationProperty Name="OrderStrings" Relationship="Self.FK_OrderStrings_2" FromRole="Students" ToRole="OrderStrings" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="idUser" />
+          </Key>
+          <Property Name="idUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="uLogin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="uPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="uAdmin" Type="Boolean" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_3" FromRole="Users" ToRole="Orders" />
+        </EntityType>
+        <Association Name="FK_Bills">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="Bills" Type="Self.Bills" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="idStud" />
+            </Principal>
+            <Dependent Role="Bills">
+              <PropertyRef Name="idStud" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Groups">
+          <End Role="Specialties" Type="Self.Specialties" Multiplicity="1" />
+          <End Role="Groups" Type="Self.Groups" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Specialties">
+              <PropertyRef Name="idSpec" />
+            </Principal>
+            <Dependent Role="Groups">
+              <PropertyRef Name="idSpec" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Students">
+          <End Role="Groups" Type="Self.Groups" Multiplicity="1" />
+          <End Role="Students" Type="Self.Students" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Groups">
+              <PropertyRef Name="idGroup" />
+            </Principal>
+            <Dependent Role="Students">
+              <PropertyRef Name="idGroup" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_1">
+          <End Role="ScholarshipTypes" Type="Self.ScholarshipTypes" Multiplicity="1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ScholarshipTypes">
+              <PropertyRef Name="idST" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="idST" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_2">
+          <End Role="OrderTypes" Type="Self.OrderTypes" Multiplicity="1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrderTypes">
+              <PropertyRef Name="idOT" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="idOT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_3">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="idUser" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="idUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderStrings_1">
+          <End Role="Orders" Type="Self.Orders" Multiplicity="1" />
+          <End Role="OrderStrings" Type="Self.OrderStrings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="idOrder" />
+            </Principal>
+            <Dependent Role="OrderStrings">
+              <PropertyRef Name="idOrder" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderStrings_2">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="OrderStrings" Type="Self.OrderStrings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="idStud" />
+            </Principal>
+            <Dependent Role="OrderStrings">
+              <PropertyRef Name="idStud" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StatementStrings_1">
+          <End Role="OrderStrings" Type="Self.OrderStrings" Multiplicity="1" />
+          <End Role="StatementStrings" Type="Self.StatementStrings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrderStrings">
+              <PropertyRef Name="idOS" />
+            </Principal>
+            <Dependent Role="StatementStrings">
+              <PropertyRef Name="idOS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StatementStrings_2">
+          <End Role="Statements" Type="Self.Statements" Multiplicity="1" />
+          <End Role="StatementStrings" Type="Self.StatementStrings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Statements">
+              <PropertyRef Name="idStat" />
+            </Principal>
+            <Dependent Role="StatementStrings">
+              <PropertyRef Name="idStat" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Bills" EntityType="Self.Bills" />
+          <EntitySet Name="Groups" EntityType="Self.Groups" />
+          <EntitySet Name="Orders" EntityType="Self.Orders" />
+          <EntitySet Name="OrderStrings" EntityType="Self.OrderStrings" />
+          <EntitySet Name="OrderTypes" EntityType="Self.OrderTypes" />
+          <EntitySet Name="ScholarshipTypes" EntityType="Self.ScholarshipTypes" />
+          <EntitySet Name="Specialties" EntityType="Self.Specialties" />
+          <EntitySet Name="Statements" EntityType="Self.Statements" />
+          <EntitySet Name="StatementStrings" EntityType="Self.StatementStrings" />
+          <EntitySet Name="Students" EntityType="Self.Students" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <AssociationSet Name="FK_Bills" Association="Self.FK_Bills">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Bills" EntitySet="Bills" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Groups" Association="Self.FK_Groups">
+            <End Role="Specialties" EntitySet="Specialties" />
+            <End Role="Groups" EntitySet="Groups" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Students" Association="Self.FK_Students">
+            <End Role="Groups" EntitySet="Groups" />
+            <End Role="Students" EntitySet="Students" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_1" Association="Self.FK_Orders_1">
+            <End Role="ScholarshipTypes" EntitySet="ScholarshipTypes" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_2" Association="Self.FK_Orders_2">
+            <End Role="OrderTypes" EntitySet="OrderTypes" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_3" Association="Self.FK_Orders_3">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderStrings_1" Association="Self.FK_OrderStrings_1">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="OrderStrings" EntitySet="OrderStrings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderStrings_2" Association="Self.FK_OrderStrings_2">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="OrderStrings" EntitySet="OrderStrings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StatementStrings_1" Association="Self.FK_StatementStrings_1">
+            <End Role="OrderStrings" EntitySet="OrderStrings" />
+            <End Role="StatementStrings" EntitySet="StatementStrings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StatementStrings_2" Association="Self.FK_StatementStrings_2">
+            <End Role="Statements" EntitySet="Statements" />
+            <End Role="StatementStrings" EntitySet="StatementStrings" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Bobrovski_4IS1_DataBase_ScholarshipAppointment2ModelContainer" CdmEntityContainer="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Entities">
+          <EntitySetMapping Name="Bills">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Bills">
+              <MappingFragment StoreEntitySet="Bills">
+                <ScalarProperty Name="idBill" ColumnName="idBill" />
+                <ScalarProperty Name="idStud" ColumnName="idStud" />
+                <ScalarProperty Name="bill" ColumnName="bill" />
+                <ScalarProperty Name="finishDate" ColumnName="finishDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Groups">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Groups">
+              <MappingFragment StoreEntitySet="Groups">
+                <ScalarProperty Name="idGroup" ColumnName="idGroup" />
+                <ScalarProperty Name="gName" ColumnName="gName" />
+                <ScalarProperty Name="idSpec" ColumnName="idSpec" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Orders">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Orders">
+              <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+                <ScalarProperty Name="idST" ColumnName="idST" />
+                <ScalarProperty Name="idOT" ColumnName="idOT" />
+                <ScalarProperty Name="docDate" ColumnName="docDate" />
+                <ScalarProperty Name="idUser" ColumnName="idUser" />
+                <ScalarProperty Name="signDate" ColumnName="signDate" />
+                <ScalarProperty Name="comm" ColumnName="comm" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderStrings">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.OrderStrings">
+              <MappingFragment StoreEntitySet="OrderStrings">
+                <ScalarProperty Name="idOS" ColumnName="idOS" />
+                <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+                <ScalarProperty Name="idStud" ColumnName="idStud" />
+                <ScalarProperty Name="cost" ColumnName="cost" />
+                <ScalarProperty Name="startDate" ColumnName="startDate" />
+                <ScalarProperty Name="finishDate" ColumnName="finishDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderTypes">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.OrderTypes">
+              <MappingFragment StoreEntitySet="OrderTypes">
+                <ScalarProperty Name="idOT" ColumnName="idOT" />
+                <ScalarProperty Name="otName" ColumnName="otName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ScholarshipTypes">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.ScholarshipTypes">
+              <MappingFragment StoreEntitySet="ScholarshipTypes">
+                <ScalarProperty Name="idST" ColumnName="idST" />
+                <ScalarProperty Name="stName" ColumnName="stName" />
+                <ScalarProperty Name="cost" ColumnName="cost" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Specialties">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Specialties">
+              <MappingFragment StoreEntitySet="Specialties">
+                <ScalarProperty Name="idSpec" ColumnName="idSpec" />
+                <ScalarProperty Name="specName" ColumnName="specName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Statements">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Statements">
+              <MappingFragment StoreEntitySet="Statements">
+                <ScalarProperty Name="idStat" ColumnName="idStat" />
+                <ScalarProperty Name="docNum" ColumnName="docNum" />
+                <ScalarProperty Name="docDate" ColumnName="docDate" />
+                <ScalarProperty Name="monthNum" ColumnName="monthNum" />
+                <ScalarProperty Name="yearNum" ColumnName="yearNum" />
+                <ScalarProperty Name="signDate" ColumnName="signDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StatementStrings">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.StatementStrings">
+              <MappingFragment StoreEntitySet="StatementStrings">
+                <ScalarProperty Name="idSS" ColumnName="idSS" />
+                <ScalarProperty Name="idOS" ColumnName="idOS" />
+                <ScalarProperty Name="idStat" ColumnName="idStat" />
+                <ScalarProperty Name="cost" ColumnName="cost" />
+                <ScalarProperty Name="bill" ColumnName="bill" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Students">
+              <MappingFragment StoreEntitySet="Students">
+                <ScalarProperty Name="idStud" ColumnName="idStud" />
+                <ScalarProperty Name="fio" ColumnName="fio" />
+                <ScalarProperty Name="birthDay" ColumnName="birthDay" />
+                <ScalarProperty Name="passInfo" ColumnName="passInfo" />
+                <ScalarProperty Name="idGroup" ColumnName="idGroup" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="Bobrovski_4IS1_DataBase_ScholarshipAppointment2Model.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="idUser" ColumnName="idUser" />
+                <ScalarProperty Name="fio" ColumnName="fio" />
+                <ScalarProperty Name="uLogin" ColumnName="uLogin" />
+                <ScalarProperty Name="uPassword" ColumnName="uPassword" />
+                <ScalarProperty Name="uAdmin" ColumnName="uAdmin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

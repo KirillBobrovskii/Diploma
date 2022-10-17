@@ -1,0 +1,93 @@
+﻿<Page x:Class="ScholarshipAppointment.Pages.Orders"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ScholarshipAppointment.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="920"
+      Title="Orders"
+      Loaded="PageLoad">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Name="GridSplitter" Width="0"/>
+            <ColumnDefinition Name="Dialog" Width="0" MaxWidth="500"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Приказы" FontSize="26" FontWeight="ExtraBold" Foreground="DodgerBlue"/>
+
+        <StackPanel Name="OrderButtonsPanel" Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Добавить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="OrderAddButtonClick"/>
+            <Button Content="Копировать" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="OrderCopyButtonClick"/>
+            <Button Name="OrderEditButton" Content="Изменить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="OrderEditButtonClick"/>
+            <Button Name="OrderDeleteButton" Content="Удалить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="OrderDeleteButtonClick"/>
+            <Label Content="|" Margin="10,0,0,0" FontSize="20" FontWeight="Bold" Foreground="Gray"/>
+            <Button Name="SignButton" Content="" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="SignButtonClick"/>
+            <Label Content="|" Margin="10,0,0,0" FontSize="20" FontWeight="Bold" Foreground="Gray"/>
+            <ComboBox Name="OrderFilterBox" Width="160" Height="25" Margin="10,0,0,0" VerticalContentAlignment="Center"/>
+            <TextBox Width="160" Height="25" Margin="5,0,5,0" VerticalContentAlignment="Center" TextChanged="OrderFilterTextBoxTextChanged"/>
+        </StackPanel>
+
+        <DockPanel Grid.Row="2" Margin="5,0,5,5">
+            <DataGrid Name ="OrderDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" SelectionChanged="OrderDataGridSelectionChanged" MouseDoubleClick="OrderDataGridMouseDoubleClick">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Номер приказа" Width="100" Binding="{Binding Path = idOrder}"/>
+                    <DataGridTextColumn Header="Тип стипендии" Width="100" Binding="{Binding Path = ScholarshipTypes.stName}"/>
+                    <DataGridTextColumn Header="Тип приказа" Width="100" Binding="{Binding Path = OrderTypes.otName}"/>
+                    <DataGridTextColumn Header="Дата" Width="90" Binding="{Binding Path = docDate, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                    <DataGridTextColumn Header="Сотрудник" Width="*" Binding="{Binding Path = Users.fio}"/>
+                    <DataGridTextColumn Header="Дата подписи" Width="90" Binding="{Binding Path = signDate, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                    <DataGridTextColumn Header="Основание приказа" Width="*" Binding="{Binding Path = comm}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+
+        <Label Content="Строки приказа" Grid.Row="3" FontSize="26" FontWeight="ExtraBold" Foreground="DodgerBlue"/>
+
+        <StackPanel Name="OrderStringFilterPanel" Grid.Row="4" Height="40" Orientation="Horizontal">
+            <StackPanel Name="OrderStringButtonsPanel" Orientation="Horizontal">
+                <Button Content="Добавить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="OrderStringAddButtonClick"/>
+                <Button Content="Копировать" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="OrderStringCopyButtonClick"/>
+                <Button Content="Изменить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="OrderStringEditButtonClick"/>
+                <Button Content="Удалить" Width="100" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="OrderStringDeleteButtonClick"/>
+            </StackPanel>
+            <Label Content="|" Margin="10,0,0,0" FontSize="20" FontWeight="Bold" Foreground="Gray"/>
+            <ComboBox Name="OrderStringFilterBox" Width="160" Height="25" Margin="10,0,0,0" VerticalContentAlignment="Center" SelectionChanged="OrderStringFilterBoxSelectionChanged"/>
+            <TextBox Width="160" Height="25" Margin="5,0,5,0" VerticalContentAlignment="Center" TextChanged="OrderStringFilterTextBoxTextChanged"/>
+            <Button Content="Экспорт в Word" Width="124" Height="25" Margin="5,0,0,0" FontWeight="Bold" Foreground="DodgerBlue" Click="WordExportButtonClick"/>
+        </StackPanel>
+
+        <DockPanel Grid.Row="5" Margin="5,0,5,5">
+            <DataGrid Name="OrderStringDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" MouseDoubleClick="OrderStringDataGridMouseDoubleClick">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Студент" Width="*" Binding="{Binding Path = Students.fio}"/>
+                    <DataGridTextColumn Header="Группа" Width="70" Binding="{Binding Path=Students.Groups.gName}"/>
+                    <DataGridTextColumn Header="Стипендия" Width="90" Binding="{Binding Path = cost}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style>
+                                <Setter Property="TextBlock.TextAlignment" Value="Right"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="Дата начала" Width="90" Binding="{Binding Path = startDate, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                    <DataGridTextColumn Header="Дата конца" Width="90" Binding="{Binding Path = finishDate, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+
+        <GridSplitter Grid.Row="1" Grid.Column="1" Grid.RowSpan="5" Margin="0,5,0,5" Background="DodgerBlue" HorizontalAlignment="Stretch"/>
+
+        <Frame Name="Frame" Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" Margin="0,5,0,5" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>

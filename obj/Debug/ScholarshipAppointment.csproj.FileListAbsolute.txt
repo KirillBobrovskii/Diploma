@@ -1,0 +1,412 @@
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe.config
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\App.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.lref
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.g.resources
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.Properties.Resources.resources
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\AuthorizationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\RegistrationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Students.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Students.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\bin\Debug\EntityFramework.dll
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\bin\Debug\EntityFramework.xml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_Content.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CopyComplete
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe.config
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\bin\Debug\EntityFramework.dll
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\bin\Debug\EntityFramework.xml
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\Pages\Students.g.cs
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\App.g.cs
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_Content.g.cs
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.lref
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\AuthorizationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\Pages\Students.baml
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\RegistrationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.g.resources
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.Properties.Resources.resources
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CopyComplete
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом ObservableCollection\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Students.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\App.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_Content.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.lref
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe.config
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\bin\Debug\EntityFramework.dll
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\bin\Debug\EntityFramework.xml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\AuthorizationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Students.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\RegistrationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.g.resources
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.Properties.Resources.resources
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CopyComplete
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\bin\Debug\ScholarshipAppointment.exe.config
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\bin\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\bin\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\bin\Debug\EntityFramework.dll
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\bin\Debug\EntityFramework.xml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\Pages\StudentDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\Pages\Students.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\App.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment_Content.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment_MarkupCompile.lref
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\AuthorizationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\Pages\StudentDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\Pages\Students.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\RegistrationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.g.resources
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.Properties.Resources.resources
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.csproj.CopyComplete
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment — копия\obj\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe.config
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\bin\Debug\EntityFramework.dll
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\bin\Debug\EntityFramework.xml
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\Pages\Students.g.cs
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\App.g.cs
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_Content.g.cs
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.lref
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\AuthorizationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.baml
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\Pages\Students.baml
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\RegistrationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.g.resources
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.Properties.Resources.resources
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CopyComplete
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом_2.0\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Groups.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Groups.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Specialties.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Specialties.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Bills.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Bills.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\BillDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\BillDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Users.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Users.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\UserDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\UserDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\BillDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Bills.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Groups.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Specialties.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\UserDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Users.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\BillDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Bills.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Groups.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Specialties.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\UserDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Users.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Orders.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Orders.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Orders.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Orders.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe.config
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\bin\Debug\EntityFramework.dll
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\bin\Debug\EntityFramework.xml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\BillDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Bills.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Groups.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Orders.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderStrings.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Specialties.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Students.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\UserDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Users.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\App.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_Content.g.cs
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.lref
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\AuthorizationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\BillDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Bills.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Groups.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Orders.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderStrings.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Specialties.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Students.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\UserDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\Pages\Users.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\RegistrationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.g.resources
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.Properties.Resources.resources
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CopyComplete
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом 2\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe.config
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\bin\Debug\EntityFramework.dll
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\bin\Debug\EntityFramework.xml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\BillDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Bills.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Groups.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Orders.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Specialties.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Students.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\UserDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Users.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\App.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_Content.g.cs
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.lref
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\AuthorizationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\BillDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Bills.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Groups.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Orders.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Specialties.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Students.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\UserDlg.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\Pages\Users.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\RegistrationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.g.resources
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.Properties.Resources.resources
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CopyComplete
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом 3\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe.config
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\bin\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\bin\Debug\EntityFramework.dll
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\bin\Debug\EntityFramework.xml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\BillDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Bills.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Groups.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Orders.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Specialties.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Students.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\UserDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Users.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\App.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_Content.g.cs
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment_MarkupCompile.lref
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\AuthorizationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\BillDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Bills.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\GroupDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Groups.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\OrderDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Orders.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\OrderStringDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\OrderTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\OrderTypes.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypeDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\ScholarshipTypes.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Specialties.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\SpecialtyDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\StudentDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Students.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\UserDlg.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\Pages\Users.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\RegistrationWindow.baml
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.g.resources
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.Properties.Resources.resources
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.CopyComplete
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.exe
+C:\Users\Кирилл\Desktop\Диплом4\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.pdb
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Statements.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\Statements.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\StatementDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\StatementDlg.baml
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\StatementStringDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\Pages\StatementStringDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\StatementDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Statements.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\StatementStringDlg.g.cs
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\StatementDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\Statements.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\Pages\StatementStringDlg.baml
+C:\Users\Кирилл\Desktop\Диплом — копия\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.ResolveComReference.cache
+C:\Users\Кирилл\Desktop\Диплом\ScholarshipAppointment\obj\Debug\ScholarshipAppointment.csproj.ResolveComReference.cache

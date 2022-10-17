@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0356578a-610c-4c7c-af7f-54b69b6bf4bf": {
+      "ProjectGuid": "0356578a-610c-4c7c-af7f-54b69b6bf4bf",
+      "DisplayName": "ScholarshipAppointment",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
